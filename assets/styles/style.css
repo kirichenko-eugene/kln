@@ -1,0 +1,70 @@
+.result {
+	background-image: url("../img/results.jpg");
+	background-size: cover;
+}
+
+.kln {
+	background-image: url("../img/kln.jpg");
+	background-size: cover;
+}
+
+.setting {
+	background-image: url("../img/settings.jpg");
+	background-size: cover;
+}
+
+.newright {
+	background-image: url("../img/newright.jpg");
+	background-size: cover;
+}
+
+.rights {
+	background-image: url("../img/rights.jpg");
+	background-size: cover;
+}
+
+.newrole {
+	background-image: url("../img/newrole.jpg");
+	background-size: cover;
+}
+
+.roles {
+	background-image: url("../img/roles.jpg");
+	background-size: cover;
+}
+
+.right-role {
+	background-image: url("../img/right-role.jpg");
+	background-size: cover;
+}
+
+.right-user {
+	background-image: url("../img/right-user.jpg");
+	background-size: cover;
+}
+
+.right-kln {
+	background-image: url("../img/right-kln.jpg");
+	background-size: cover;
+}
+
+.result:after, .kln:after, .setting:after, .newright:after, .rights:after, .newrole:after, .roles:after,
+.right-role:after, .right-user:after, .right-kln:after {
+	content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+
+.text-zindex {
+	z-index: 3;
+}
+
+hr {
+	border-color: white;
+}
+
